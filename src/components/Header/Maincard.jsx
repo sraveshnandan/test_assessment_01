@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 import { FaLightbulb } from "react-icons/fa";
 const Maincard = () => {
   return (
-    <div className='text-left p-5 sm:p-15 z-40'>
+    <div className='text-left p-5 sm:py-10 sm:px-15 z-40'>
         <h2 className='text-2xl font-bold  pb-5 text-[#525de0]'>Your Media Partner</h2>
         <p className='text-3xl sm:text-4xl font-bold  pb-10'>Maximize Your Reach with Media Dost</p>
         <div className="flex justify-center gap-2.5 items-center">
