@@ -1,5 +1,4 @@
 import React from "react";
-import Navmenu from "./Navmenu";
 import { MdOutlinePersonOutline } from "react-icons/md";
 
 const Login = () => {
@@ -12,7 +11,7 @@ const Login = () => {
       <div className="logicon md:hidden bg-white px-1 sm:px-3 py-1 leading-12 rounded-md shadow-sm shadow-gray-500 cursor-pointer">
       <MdOutlinePersonOutline className='text-3xl sm:text-5xl text-[#525de0] ' />
       </div>
-      <Navmenu/>
+      {/* <Navmenu/> */}
     </div>
   );
 };
